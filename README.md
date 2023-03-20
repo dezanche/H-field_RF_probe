@@ -11,6 +11,6 @@ The panelized version allows 4 identical probes to be printed on a 100mmx100mm p
 Nicola De Zanche
 
 ## License
-Layouts and other CAD files are licensed under the [CERN-OHL-W license](https://ohwr.org/cern_ohl_w_v2.pdf), version 2 or any later version.\
+Layouts and other CAD files are licensed under the [CERN-OHL license](https://ohwr.org/project/licences/wikis/cern-ohl-v1.2), version 1.2 or any later version.\
 ![CClicense](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)\
 All other original content in this repository (including this README file) is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/).
