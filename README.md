@@ -1,4 +1,5 @@
 # Probe for RF Magnetic Fields
+<!--![VNA Q measurement](Images/VNA_Q.svg)-->
 
 ## Background
 
@@ -20,11 +21,14 @@ Making loop probes using coax requires some skill and for small diameters it can
 A similar design is presented in this article: https://www.mdpi.com/2079-9292/10/18/2201
 
 ## Releases
-![sniffer probe](IMG_20190426_123132.jpg)
+
 1. The first release (1.0) measures 23mm wide and ~100mm in length. The diameter of the loop is approximately 18mm with a central hole about 11mm ⌀. The panelized version allows 4 identical probes to be printed on a 100mm × 100mm panel (was used because of cost savings from a specific board house). Copies of this board were distributed at the [2019 annual scientific meeting](https://www.ismrm.org/19m/) of the [ISMRM](https://www.ismrm.org/) (Montreal).
 This design has a minor flaw: the whole board is covered by ground which can cause perturbation of fields throughout the length of the probe. In many cases the effect will be negligible, but for uses like near field mapping, or accurate measurement of resonance frequency this might be a concern.
+![version 1](Images/IMG_20190426_123132.jpg)
 
 2. The second release (2.0) has identical measurements to the previous release and corrects the design flaw by using smaller ground planes. Copies of this board were distributed at the [2023 annual scientific meeting](https://www.ismrm.org/23m/) of the [ISMRM](https://www.ismrm.org/) (Toronto).
+![version 2](Images/probe_v2.jpg)
+![signal layer](Images/signal_layer.svg)
 
 Lately, probes such as these have become inexpensive and available from various sources online, so it is unlikely that further revisions of this single-loop design will be made.
 
