@@ -1,5 +1,5 @@
-# Probe for RF Magnetic Fields
-<!--![VNA Q measurement](Images/VNA_Q.svg)-->
+# Shielded Loop Probe for RF Magnetic Fields
+![VNA Q measurement](Images/VNA_Q.svg)
 
 ## Background
 
