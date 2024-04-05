@@ -23,7 +23,7 @@ Making loop probes using coax requires some skill and for small diameters it can
 A similar design is presented in this article: https://www.mdpi.com/2079-9292/10/18/2201
 
 ## Insulated Probe Holder
-It was suggested by a [user](https://intergalaktik.eu/news/bb3-cm4-emc) that in some situations it might be useful to prevent close contact with the probe. Therefore he designed a [3D printed case](https://github.com/goran-mahovlic/H-field_RF_probe/tree/main/Case) or sleeve for his probe. I have a slightly different SMA connector on mine, and to make it fit we had to modify it (see [probe_sleeve.stl](https://github.com/dezanche/H-field_RF_probe/blob/main/probe_sleeve.stl)).
+It was suggested by a [user](https://intergalaktik.eu/news/bb3-cm4-emc) that in some situations it might be useful to prevent close contact with the probe. Therefore he designed a [3D printed case](https://github.com/goran-mahovlic/H-field_RF_probe/tree/main/Case) or sleeve for his probe. I have a slightly different SMA connector on mine, and to make it fit we had to modify the case design (see [probe_sleeve.stl](https://github.com/dezanche/H-field_RF_probe/blob/main/probe_sleeve.stl)).
 ![probe inside sleeve](Images/probe_sleeve.jpg)
 
 ## Releases
