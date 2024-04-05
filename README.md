@@ -1,9 +1,11 @@
 # Shielded Loop Probe for RF Magnetic Fields
-![VNA Q measurement](Images/VNA_Q.svg)
+![version 2](Images/probe_v2.jpg)
 
 ## Background
 
 Shielded loop probes have a variety of uses in RF engineering, including as "sniffer" probes for electromagnetic (EM) compatibility (EMC) or interference (EMI) measurements in conjunction with a spectrum analyzer. They are also used to measure the H fields of resonant or radiating structures (antennas). In MRI and NMR they are connected to a network analyzer (VNA) to measure the frequency response of RF detector "coils", e.g., to ensure tuning at the Larmor frequency.
+
+![VNA Q measurement](Images/VNA_Q.svg)
 
 The shielded loop was originally described for use as an antenna by **RE Burgess in “The Screened Loop Aerial: A Theoretical and Experimental Investigation”, The Wireless Engineer 16 (October 1939): 492–99**.
 
@@ -20,6 +22,10 @@ Making loop probes using coax requires some skill and for small diameters it can
 
 A similar design is presented in this article: https://www.mdpi.com/2079-9292/10/18/2201
 
+## Insulated Probe Holder
+It was suggested by a [user](https://intergalaktik.eu/news/bb3-cm4-emc) that in some situations it might be useful to prevent close contact with the probe. Therefore he designed a [3D printed case](https://github.com/goran-mahovlic/H-field_RF_probe/tree/main/Case) or sleeve for his probe. I have a slightly different SMA connector on mine, and to make it fit we had to modify it (see [probe_sleeve.stl](https://github.com/dezanche/H-field_RF_probe/blob/main/probe_sleeve.stl)).
+![probe inside sleeve](Images/probe_sleeve.jpg)
+
 ## Releases
 
 1. The first release (1.0) measures 23mm wide and ~100mm in length. The diameter of the loop is approximately 18mm with a central hole about 11mm ⌀. The panelized version allows 4 identical probes to be printed on a 100mm × 100mm panel (was used because of cost savings from a specific board house). Copies of this board were distributed at the [2019 annual scientific meeting](https://www.ismrm.org/19m/) of the [ISMRM](https://www.ismrm.org/) (Montreal).
@@ -27,13 +33,14 @@ This design has a minor flaw: the whole board is covered by ground which can cau
 ![version 1](Images/IMG_20190426_123132.jpg)
 
 2. The second release (2.0) has identical measurements to the previous release and corrects the design flaw by using smaller ground planes. Copies of this board were distributed at the [2023 annual scientific meeting](https://www.ismrm.org/23m/) of the [ISMRM](https://www.ismrm.org/) (Toronto).
-![version 2](Images/probe_v2.jpg)
 ![signal layer](Images/signal_layer.svg)
 
 Lately, probes such as these have become inexpensive and available from various sources online, so it is unlikely that further revisions of this single-loop design will be made.
 
 ## Contributors
 Nicola De Zanche
+
+Bill Hovestad
 
 ## License
 Layouts and other CAD files are licensed under the [CERN-OHL-W 2.0 license](https://cern-ohl.web.cern.ch/), version 2.0 or any later version.\
