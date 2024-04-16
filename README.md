@@ -20,7 +20,7 @@ Photos, drawings and additional references are found in numerous sites online li
 
 Making loop probes using coax requires some skill and for small diameters it can be challenging. Reliability of the probe can also be an issue because solder joints can fail, and thin coax, even if semi-rigid, can bend quite easily. The probe described here uses a [stripline](https://en.wikipedia.org/wiki/Stripline) printed inside a circuit board (4-layer 1.6 mm FR4 PCB), making it much more rugged and rigid than coax. Connection from the board to coaxial cable is made through a side-launch connector such as the SMA connector shown in the photos below.
 
-A similar design is presented in this article: https://www.mdpi.com/2079-9292/10/18/2201
+The PCB design is provided in both [KiCAD](https://www.kicad.org/) and Gerber format. A similar design is presented in this article: https://www.mdpi.com/2079-9292/10/18/2201
 
 ## Insulated Probe Holder
 It was suggested by a [user](https://intergalaktik.eu/news/bb3-cm4-emc) that in some situations it might be useful to prevent close contact with the probe. Therefore he designed a [3D printed case](https://github.com/goran-mahovlic/H-field_RF_probe/tree/main/Case) or sleeve for his probe. I have a slightly different SMA connector on mine, and to make it fit we had to modify the case design (see [probe_sleeve.stl](https://github.com/dezanche/H-field_RF_probe/blob/main/probe_sleeve.stl)).
