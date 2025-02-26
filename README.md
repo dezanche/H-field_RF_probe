@@ -1,5 +1,7 @@
 # Shielded Loop Probe for RF Magnetic Fields
-![version 2](Images/probe_v2.jpg)
+![version](https://img.shields.io/badge/version-2.0-green)
+
+![photo v2](Images/probe_v2.jpg)
 
 ## Background
 
